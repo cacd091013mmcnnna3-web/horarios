@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@400;500;600;700&display=swap');
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Outfit', sans-serif;
+    color: #1e293b;
+}
+
+.title-comic {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: 1.6rem;
+}
+
+.card-comic {
+    background: #ffffff;
+    border: 2px solid #0f172a;
+    box-shadow: 4px 4px 0px #0f172a;
+    border-radius: 8px;
+}
+
+.navbar-comic {
+    background-color: #0f172a;
+    border-bottom: 3px solid #0f172a;
+}
+
+/* Botones Formales con toque Pop-Art */
+.btn-comic {
+    font-weight: 600;
+    border: 2px solid #0f172a;
+    box-shadow: 2px 2px 0px #0f172a;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    transition: all 0.15s ease;
+}
+
+.btn-comic:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 4px 4px 0px #0f172a;
+}
+
+.btn-comic:active {
+    transform: translate(1px, 1px);
+    box-shadow: 1px 1px 0px #0f172a;
+}
+
+.btn-comic-yellow { background-color: #fef08a; color: #0f172a; }
+.btn-comic-blue   { background-color: #3b82f6; color: #ffffff; }
+.btn-comic-red    { background-color: #ef4444; color: #ffffff; }
+.btn-comic-green  { background-color: #22c55e; color: #ffffff; }
+.btn-comic-dark   { background-color: #334155; color: #ffffff; }
+
+/* Tabla Sobria */
+.table-comic {
+    border: 2px solid #0f172a;
+}
+
+.table-comic thead {
+    background-color: #0f172a;
+    color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.1rem;
+}
+
+.table-comic td, .table-comic th {
+    border: 1px solid #cbd5e1;
+    padding: 10px;
+}
