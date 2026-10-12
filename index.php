@@ -83,7 +83,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
     <?php endif; ?>
 
-    <form method="POST" action="login.php">
+    <form action="index.php" method="POST">
         <div class="mb-3 text-start">
             <label class="form-label text-dark fw-bold"><i class="fa-solid fa-user me-1"></i> USUARIO</label>
             <input type="text" name="usuario" class="form-control border-dark fw-bold" placeholder="Ingresa tu usuario" required>
