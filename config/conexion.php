@@ -3,7 +3,7 @@ $host = "mysql-26ff18b0-soycecytem-14f4.f.aivencloud.com";
 $port = 22560;
 $user = "avnadmin";
 $password = "AVNS_IlXuQ34ssuMqmGPHc1W";
-$dbname = "defaultdb";
+$dbname = "bd_asistencia.sql";
 
 $conn = new mysqli($host, $user, $password, $dbname, $port);
 
