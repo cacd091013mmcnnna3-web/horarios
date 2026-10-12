@@ -1,4 +1,6 @@
 <?php
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
 session_start();
 
 $rutaConexion = __DIR__ . '/config/conexion.php';
@@ -56,6 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 ?>
+    
 <!DOCTYPE html>
 <html lang="es">
 <head>
